@@ -1,13 +1,15 @@
 import express from "express";
+import { getAllMenu, createMenu, updateMenu, deleteMenu } from "../controller/MenuController.js"
+const upload = multer({ dest: 'uploads/' });
+const router = express.Router();
+import multer from 'multer';
 
-const router = express.Router
+router.post('/' , upload.single('image') ,createMenu)
 
-router.post('/' , )
+router.get('/' , getAllMenu )
 
-router.get('/' ,  )
+router.patch('/:id' , updateMenu)
 
-router.get('/:id', )
+router.delete('/:id' ,deleteMenu )
 
-router.patch('/:id' , )
-
-router.delete('/:id' , )
+export default router;
