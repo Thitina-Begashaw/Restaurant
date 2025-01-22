@@ -5,7 +5,11 @@ export default {
     './src/**/*.{html,js,jsx,ts,tsx}', // Include all files in the `src` folder
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        heebo: ['Heebo', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 };
