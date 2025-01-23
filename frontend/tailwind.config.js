@@ -6,6 +6,15 @@ export default {
   ],
   theme: {
     extend: {
+      animation: {
+        'spin-custom': 'spin360 25s linear infinite',
+      },
+      keyframes: {
+        spin360: {
+          '0%': { transform: 'rotate(0deg)' },
+          '100%': { transform: 'rotate(360deg)' },
+        },
+      },
       fontFamily: {
         heebo: ['Heebo', 'sans-serif'],
       },

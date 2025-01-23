@@ -10,7 +10,7 @@ export default function Body(){
       <button className="px-7 py-3 mb-20 ml-36 bg-orange-500 hover:bg-orange-600 text-white transition duration-300  ">BOOK A TABLE</button>
       </div>
       <div className="absolute right-32 top-56">
-      <img className="rounded-full w-96 h-96  object-cover" src= {BodyPic} alt="" />
+      <img className="rounded-full w-96 h-96 animate-spin-custom" src= {BodyPic} alt="" />
       </div>
     </div>
   );
