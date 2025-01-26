@@ -6,6 +6,7 @@ import CheifPic from "./assets/Cheif1.png";
 import fork from "./assets/fork.png";
 import cart from "./assets/cart.png";
 import servicePic from "./assets/service.png";
+import AboutUs from "./components/AboutUs.jsx";
 export default function App(){
   return(
     <>
@@ -34,6 +35,8 @@ export default function App(){
   title="24/7 Service"
   description="Our 24/7 service ensures delicious meals are always available, no matter the time. "
   />
+
+  <AboutUs/>
 </>
   );
 }
