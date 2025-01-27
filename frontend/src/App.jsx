@@ -7,6 +7,8 @@ import fork from "./assets/fork.png";
 import cart from "./assets/cart.png";
 import servicePic from "./assets/service.png";
 import AboutUs from "./components/AboutUs.jsx";
+import BookTable from "./components/BookTable.jsx";
+import Menu from "./components/Menu.jsx";
 export default function App(){
   return(
     <>
@@ -37,6 +39,9 @@ export default function App(){
   />
 
   <AboutUs/>
+<Menu/>
+
+
 </>
   );
 }
