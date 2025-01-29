@@ -40,6 +40,7 @@ export default function App(){
 
   <AboutUs/>
 <Menu/>
+<BookTable/>
 
 
 </>
