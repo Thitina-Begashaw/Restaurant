@@ -10,6 +10,7 @@ import AboutUs from "./components/AboutUs.jsx";
 import BookTable from "./components/BookTable.jsx";
 import Menu from "./components/Menu.jsx";
 import TeamMembers from "./components/TeamMembers.jsx";
+import Footer from "./components/Footer.jsx";
 export default function App(){
   return(
     <>
@@ -43,6 +44,7 @@ export default function App(){
 <Menu/>
 <BookTable/>
 <TeamMembers/>
+<Footer/>
 
 
 </>
