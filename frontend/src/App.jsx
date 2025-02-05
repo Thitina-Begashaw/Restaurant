@@ -1,6 +1,6 @@
 import React from "react";
 import Home from "./Home";
-import Menu from "./components/Menu";
+import AdminPage from "./components/AdminPage.jsx";
 import {BrowserRouter, Routes , Route , Navigate} from "react-router-dom";
 export default function App(){
   return(
@@ -8,7 +8,7 @@ export default function App(){
 <BrowserRouter>
      <Routes>
      <Route path="/" element={<Home />} />
-     <Route path="/admin" element={<Menu/>}/>
+     <Route path="/admin" element={<AdminPage/>}/>
 
      </Routes>
 
