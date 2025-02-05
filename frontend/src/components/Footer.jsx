@@ -4,22 +4,22 @@ import { FaFacebook, FaGithub, FaYoutube, FaLinkedin } from "react-icons/fa";
 export default function Footer(){
   return(
     <>
-    <div className=" flex  gap-44 w-full h-96 bg-slate-800 mt-10 p-20">
+    <div className=" flex  gap-20 w-full h-96 bg-slate-800 mt-10 p-20">
       <div className="text-white">
         <h1 className="text-orange-500 font-serif italic text-2xl font-bold">Company</h1>
         <ul className="list-none space-y-2 text-xl">
           <li className="before:content-['✔'] before:mr-2 before:text-white">About Us</li>
           <li className="before:content-['✔'] before:mr-2 before:text-white">Contact Us</li>
           <li className="before:content-['✔'] before:mr-2 before:text-white">Reservation</li>
-          <li className="before:content-['✔'] before:mr-2 before:text-white">Privacy Policy</li>
-          <li className="before:content-['✔'] before:mr-2 before:text-white">Terms and Conditions</li>
+          <li className="before:content-['✔'] before:mr-2 before:text-white">Privacy&nbsp;Policy</li>
+          <li className="before:content-['✔'] before:mr-2 before:text-white">Terms&nbsp;and&nbsp;Conditions</li>
         </ul>
       </div>
 
       <div className="text-white">
         <h1 className="text-orange-500 font-serif italic text-2xl font-bold">Contact</h1>
         <ul className="list-none space-y-2 text-xl">
-          <li className="before:content-['✔'] before:mr-2 before:text-white">123 Street, New York, USA</li>
+          <li className="before:content-['✔'] before:mr-2 before:text-white">123&nbsp;Street,&nbsp;New&nbsp;York,&nbsp;USA</li>
           <li className="before:content-['✔'] before:mr-2 before:text-white">+012 345 67890</li>
           <li className="before:content-['✔'] before:mr-2 before:text-white">info@example.com</li>
           <div className="flex space-x-4">
@@ -43,7 +43,7 @@ export default function Footer(){
       <div className="text-white w-52">
         <h1 className="text-orange-500 font-serif italic text-2xl font-bold">Opening</h1>
         <ul className="list-none space-y-2 text-xl">
-          <li className="">Monday-Saturday</li>
+          <li className="">Monday&nbsp;to&nbsp;Saturday</li>
           <li className="">09AM - 09PM</li>
           <li className="">Reservation</li>
           <li className="">Sunday</li>
@@ -53,7 +53,7 @@ export default function Footer(){
 
       <div className="text-white text-xl">
         <h1 className="text-orange-500 font-serif italic text-2xl font-bold">Newsletter</h1>
-        <p>hhhhhhhhhhhhhhhhhhh</p>
+        <p>hhhhhhhhhhhh</p>
       </div>
 
      

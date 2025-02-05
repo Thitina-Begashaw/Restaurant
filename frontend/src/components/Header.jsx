@@ -50,16 +50,17 @@ export default function Header() {
 
         
 
-        <div className="flex flex-row gap-10 text-white items-center ml-52 text-lg">
+        <div className="hidden md:flex gap-5 lg:gap-10 items-center text-white text-sm md:text-base lg:text-lg">
           <p className="cursor-pointer hover:text-orange-400 transition duration-300" onClick={handleHomeClick}>HOME</p>
           <p className="cursor-pointer hover:text-orange-400 transition duration-300">ABOUT</p>
           <p className="cursor-pointer hover:text-orange-400 transition duration-300">SERVICE</p>
           <p className="cursor-pointer hover:text-orange-400 transition duration-300">MENU</p>
           <p className="cursor-pointer hover:text-orange-400 transition duration-300">CONTACT</p>
-          <button className="flex px-6 py-3  bg-orange-500 hover:bg-orange-600 text-white transition duration-300">
+          <button className="flex px-5 py-3  bg-orange-500 hover:bg-orange-600 text-white transition duration-300">
             BOOK A TABLE
           </button>
         </div>
+        <div className="md:hidden text-white cursor-pointer text-2xl">☰</div>
       </div>
     </div>
   );
