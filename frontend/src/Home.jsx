@@ -11,46 +11,21 @@ import BookTable from "./components/BookTable.jsx";
 import Menu from "./components/Menu.jsx";
 import TeamMembers from "./components/TeamMembers.jsx";
 import Footer from "./components/Footer.jsx";
-import { useEffect } from "react";
 
-export default function Home(){
-  
-  return(
+export default function Home() {
+  return (
     <>
-    
-
-<Header/>
-<Body/>
-<Service
-  img = {CheifPic}
-  title="Master Chefs"
-  description="Our Master Chef blends passion and expertise to craft exquisite, flavorful dishes."
-  />
-
-<Service
-  img = {fork}
-  title="Quality Food"
-  description="Indulge in the finest, freshly prepared dishes made with premium ingredients."
-  />
-
-<Service
-  img = {cart}
-  title="Online Order"
-  description=" Enjoy easy online ordering and fresh delivery to your doorstep."
-  />
-
-<Service
-  img = {servicePic}
-  title="24/7 Service"
-  description="Our 24/7 service ensures delicious meals are always available, no matter the time. "
-  />
-
-  <AboutUs/>
-<Menu/>
-<BookTable/>
-<TeamMembers/>
-<Footer/>
-
+      <Header />
+      <Body />
+      <Service img={CheifPic} title="Master Chefs" description="Our Master Chef blends passion and expertise to craft exquisite, flavorful dishes." />
+      <Service img={fork} title="Quality Food" description="Indulge in the finest, freshly prepared dishes made with premium ingredients." />
+      <Service img={cart} title="Online Order" description="Enjoy easy online ordering and fresh delivery to your doorstep." />
+      <Service img={servicePic} title="24/7 Service" description="Our 24/7 service ensures delicious meals are always available, no matter the time." />
+      <AboutUs />
+      <Menu />
+      <BookTable />
+      <TeamMembers />
+      <Footer />
     </>
   );
 }
